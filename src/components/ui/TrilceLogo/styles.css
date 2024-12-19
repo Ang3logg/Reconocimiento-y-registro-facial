@@ -1,0 +1,55 @@
+.trilce-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #e31837;
+  padding: 8px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trilce-shield {
+  position: relative;
+  width: 24px;
+  height: 30px;
+}
+
+.shield-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background-color: white;
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.shield-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background-color: white;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.trilce-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.text-trilce {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.text-ucv {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
